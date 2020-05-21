@@ -1,0 +1,42 @@
+header{
+  align-items: center;
+  color: #fca93d;
+  text-align: center;
+  background-color:rgba(1, 22, 39, 0.6);
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%;
+  border-radius: 20px;
+}
+body{
+  background-color: #bac3d1;
+}
+div{
+  background-color:;
+  overflow: hidden;
+  margin-top: 1%;
+}
+.info{
+  width: 60%;
+  float: left;
+  margin-left: 10px;
+  border-radius: 20px;
+  padding: 1%;
+  background-color:#4b8fb3;
+}
+.discos{
+  width: 30%;
+float:left;
+margin-left: 20px;
+border-radius: 20px;
+padding: 1%;
+background-color:#40c1f5;
+}
+.col-sm{
+  border: 1px;
+  border-color: black;
+}
+table{
+  border-radius: 20px
+}

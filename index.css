@@ -1,0 +1,83 @@
+  header{
+    align-items: center;
+    color: #fca93d;
+    text-align: center;
+    background-color:rgba(1, 22, 39, 0.6);
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 1%;
+  }
+  nav{
+    text-align: center;
+  }
+  body{
+    background-color: #bac3d1;
+  }
+  section{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    /* esto hace que al achicar la pagina, los divs se orienten y se acomoden automaticamente */
+  .años{
+    /* los 3 divs principales  */
+    align-items: center;
+    font-size: 80px;
+    margin: 0 auto;
+    background-color:rgba(254, 95, 85,0.7);
+    border-radius: 20px;
+    width: 25%;
+    height: 400px;
+    position: relative;
+    /* Se posiciona de forma normal, pudiendo ser modificado por valores Left Right Top */
+    float: left;
+    /* hace que la imagen "flote" hacia la izq */
+    overflow: hidden;
+    /* Esto hace que los divs no se reajusten entre ellos, sino que se puedan "apilar" uno sobre otro */
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-top: 1%;
+    }
+  .foto{
+      width: 100%;
+      float: left;
+      overflow: visible;
+      }
+  .fondo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size:700px;
+    opacity: 0;
+  }
+  /* opacity 0 para que no se vea*/
+  .fondo:hover{
+    opacity: 1;
+    background-color: rgba(254, 95, 85,0.3);
+    font-size: 90px;
+  }
+  /* opacity 1 para que al pasar el mouse sobre ese div si se vea */
+  .numeros{
+    text-align: center;
+    padding: 20%;
+    font-size: 100px;
+    color: black;
+  }
+    #foto1 {
+  background-size: contain;
+  height:400px;
+  }
+    #foto2{
+        background-size: contain;
+        height:400px;
+        float: right;
+    }
+    #foto3{
+        height: 550px;
+    }
+    a{
+      width: 200%;
+    }
