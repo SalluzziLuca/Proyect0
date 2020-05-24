@@ -1,3 +1,4 @@
+/* change the syle of the header(color, margins, font family) */
 header{
   align-items: center;
   color: #fca93d;
@@ -6,17 +7,21 @@ header{
   font-size: 20px;
   margin: 0 auto;
   padding: 20px;
-  width: 50%;
+  width: 25%;
   border-radius: 20px;
+  font-family: 'Rock Salt', cursive
 }
+/* set the backgroundof the page */
 body{
-  background-color: #bac3d1;
+  background-color: #f5f5f5;
 }
+/* stye the div color, border and margin*/
 div{
   background-color:;
   overflow: hidden;
   margin-top: 1%;
 }
+/* modify class values */
 .info{
   width: 60%;
   float: left;
@@ -31,7 +36,7 @@ float:left;
 margin-left: 20px;
 border-radius: 20px;
 padding: 1%;
-background-color:#40c1f5;
+background-color:#4b8fb3;
 }
 .col-sm{
   border: 1px;
@@ -39,4 +44,51 @@ background-color:#40c1f5;
 }
 table{
   border-radius: 20px
+}
+/* Add a black background color and margins,and borders to the top navigation */
+.topnav {
+  background-color:rgba(1, 22, 39, 0.6);
+  overflow: hidden;
+  margin-left: 20.5%;
+  margin-right: 20.5%;
+  margin-top: 0.5%;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+/* Change the color, and the margins to the links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 10%;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Modify the home link */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:#fca93d;
+  color: white;
+}
+
+/* make the header responsive, ist changes the content and font size when the screen gets smaller */
+@media (min-width:600px){
+  header{
+    font-size: 20px;
+  }
+  header ::before{
+    content: "1970"
+  }
+}
+@media (max-width:599px) {
+  header{
+    font-size: 2px;
+  }
+  header ::before{
+    content: "70'"
+  }
 }

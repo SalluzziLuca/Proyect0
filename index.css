@@ -1,14 +1,16 @@
+/* modify the values of the header */
   header{
     align-items: center;
     color: #fca93d;
     text-align: center;
     background-color:rgba(1, 22, 39, 0.6);
-    font-size: 20px;
+    font-size: 1500px;
     margin: 0 auto;
     padding: 20px;
     width: 50%;
     border-radius: 20px;
     margin-top: 1%;
+    font-family: 'Rock Salt', cursive;
   }
   nav{
     text-align: center;
@@ -16,14 +18,16 @@
   body{
     background-color: #bac3d1;
   }
+
+  /* make divs años responsive */
   section{
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     }
-    /* esto hace que al achicar la pagina, los divs se orienten y se acomoden automaticamente */
+
+    /* Modify div size, color, an position, flat, and overflow */
   .años{
-    /* los 3 divs principales  */
     align-items: center;
     font-size: 80px;
     margin: 0 auto;
@@ -32,11 +36,8 @@
     width: 25%;
     height: 400px;
     position: relative;
-    /* Se posiciona de forma normal, pudiendo ser modificado por valores Left Right Top */
     float: left;
-    /* hace que la imagen "flote" hacia la izq */
     overflow: hidden;
-    /* Esto hace que los divs no se reajusten entre ellos, sino que se puedan "apilar" uno sobre otro */
     margin-left: 5%;
     margin-right: 2%;
     margin-top: 1%;
