@@ -1,0 +1,65 @@
+%columns{
+    background-color: #4b8fb3;
+    border-radius: 20px;
+}
+$SmallMargin: 1%;
+
+.col-md-7{
+  h1{
+    color: black;
+  }
+}
+// Asi, solo los h1 que esten dentro de un .col-md-7 van a ser negros
+.col-4{
+  h1{
+    color:gray;
+  }
+}
+// los que esten dentro de col-4, grices
+
+header{
+  align-items: center;
+  color: #fca93d;
+  text-align: center;
+  background-color:rgba(1, 22, 39, 0.6);
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%;
+  border-radius: 20px;
+}
+
+body{
+  background-color: #bac3d1;
+}
+
+.col-md-7{
+  @extend %columns;
+  margin: $SmallMargin;
+}
+
+.col-4{
+  width: 100%;
+  float: left;
+  overflow: visible;
+  position: relative;
+  padding: 1%;
+  @extend %columns;
+  margin: $SmallMargin;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  padding: 1%;
+  margin: $SmallMargin;
+  border-radius: 20px;
+}
+
+table{
+  margin-top: 2%;
+}
+
+
+
+// TODAVIA HAY QUE COMPILAR CON EL SASS Y EL CMD
