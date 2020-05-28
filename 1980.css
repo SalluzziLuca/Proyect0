@@ -14,6 +14,7 @@ header{
 /* set the backgroundof the page */
 body{
   background-color: #f5f5f5;
+  font-family: 'Chelsea Market', cursive; text-shadow:0 0 1px transparent;
 }
 
 /* stye the collum color, border and margin*/
@@ -21,6 +22,8 @@ body{
   background-color: #4b8fb3;
   border-radius: 20px;
   margin: 1%;
+  padding: 1%;
+  color: black;
 }
 /* stye the collum color, border and margin*/
 .col-4{
@@ -32,6 +35,7 @@ body{
   margin: 1%;
   background-color: #4b8fb3;
   border-radius: 20px;
+  font-size: 190%;
 }
 
 /* change the size and the margins of the image */
@@ -51,8 +55,8 @@ table{
 .topnav {
   background-color:rgba(1, 22, 39, 0.6);
   overflow: hidden;
-  margin-left: 20.5%;
-  margin-right: 20.5%;
+  margin-left: 19%;
+  margin-right: 19%;
   margin-top: 0.5%;
   border: 5px solid black;
   border-radius: 20px;
@@ -84,7 +88,7 @@ table{
     font-size: 20px;
   }
   header ::before{
-    content: "1980"
+    content:"1980"
   }
 }
 @media (max-width:599px) {
