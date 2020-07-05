@@ -13,7 +13,7 @@ $SmallMargin: 1%;
   }
 }
 
-.col-4{
+.col-md-4{
   h1{
     color: #2e2929;
   }
@@ -39,7 +39,6 @@ body{
     font-family: 'Chelsea Market', cursive; text-shadow:0 0 1px transparent;
 }
 
-// using the templates and variables to style the col
 .col-md-7{
   @extend %columns;
   margin: $SmallMargin;
@@ -47,7 +46,7 @@ body{
 }
 
 // same as in the last one, but with extra commands
-.col-4{
+.col-md-4{
   width: 100%;
   float: left;
   overflow: visible;
@@ -72,6 +71,10 @@ img{
 
 table{
   margin-top: 2%;
+  max-width: 100%;
+}
+thead{
+  border-radius: 20px;
 }
 
 // Add a black background color and margins,and borders to the top navigation
